@@ -53,17 +53,17 @@ You can verify the PHP installation by entering the following command:
 Configuration Wordpress 
 # sudo nano /etc/apache2/sites-available/wordpress.conf
 > Copy-Paste the following lines <VirtualHost *:80>
->ServerAdmin admin@example.com
-DocumentRoot /var/www/html/wordpress
-ServerName example.com
-ServerAlias www.example.com
-<Directory /var/www/html/wordpress/>
-Options FollowSymLinks
-AllowOverride All
-Require all granted
-</Directory>
-ErrorLog ${APACHE_LOG_DIR}/error.log
-CustomLog ${APACHE_LOG_DIR}/access.log combined
+> ServerAdmin admin@example.com
+> DocumentRoot /var/www/html/wordpress
+> ServerName example.com
+> ServerAlias www.example.com
+> <Directory /var/www/html/wordpress/>
+> Options FollowSymLinks
+> AllowOverride All
+> Require all granted
+> </Directory>
+> ErrorLog ${APACHE_LOG_DIR}/error.log
+> CustomLog ${APACHE_LOG_DIR}/access.log combined
 
 > # </VirtualHost>
 - sudo a2ensite wordpress.conf
