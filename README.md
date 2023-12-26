@@ -42,10 +42,10 @@ systemctl status mysql.service
 - sudo apt update
 - sudo apt upgrade 
 - Before installing PHP, you need to install the required dependencies. To do this run the following command.
-/ - sudo apt install software-properties-common ca-certificates lsb-release apt-transport-https.
-/  - sudo add-apt-repository ppa:ondrej/php
- / - sudo apt update
+> sudo apt install software-properties-common ca-certificates lsb-release apt-transport-https.
+> sudo add-apt-repository ppa:ondrej/php
+> sudo apt update
 The SURY repository has PHP 8.1, 8.0, 7.4, 7.3, 7.2, 7.1, 7.0 and 5.6. You can use the following commands to install any of the required PHP versions.
-/  - sudo apt install php8.1
-/  - sudo apt install php8.1-mysql php8.1-mbstring php8.1-xml php8.1-curl
+> sudo apt install php8.1
+> sudo apt install php8.1-mysql php8.1-mbstring php8.1-xml php8.1-curl
 You can verify the PHP installation by entering the following command:
