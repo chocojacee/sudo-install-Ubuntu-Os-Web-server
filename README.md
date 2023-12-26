@@ -25,3 +25,15 @@ Install dan Setting ip
 # sudo netplan apply
 # sudo netplan –debug apply
 # ifconfig
+
+Install Mysql
+# sudo apt update
+# sudoapt -get install server mysql
+# systemctl is-active mysql
+# sudo mysql_secure_installation
+# sudo mysql
+As you can see, the following query will set the root password to “Password123#@!” and the authentication method to “mysql_native_password”.
+Reload the grant tables in the MySQL database so that the changes can be applied without restarting the “mysql” service.
+> FLUSH PRIVILEGES;
+# mysql -u root -p
+# systemctl status mysql.service
