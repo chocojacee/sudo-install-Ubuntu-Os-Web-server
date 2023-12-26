@@ -2,7 +2,7 @@
 
 Install Apache 2
 # sudo apt update
-# sudo tepat instal apache2
+# sudo apt install apache2
 # sudo efw enable
 # sudo efw app list
 # sudo ufw allow 'Apache Full'
@@ -19,4 +19,9 @@ Install Ssh
 # sudo ufw enable
 You can see that SSH port 22 is opened. If you have the same output as shown in the picture, then the system is ready for remote connections via SSH.
 
-Install 
+Install dan Setting ip
+# ifconfig
+# sudo nano /etc/netplan/00-installer-config.yaml
+# sudo netplan apply
+# sudo netplan –debug apply
+# ifconfig
