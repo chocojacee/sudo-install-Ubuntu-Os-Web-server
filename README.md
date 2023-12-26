@@ -51,7 +51,7 @@ The SURY repository has PHP 8.1, 8.0, 7.4, 7.3, 7.2, 7.1, 7.0 and 5.6. You can u
 You can verify the PHP installation by entering the following command:
 
 Configuration Wordpress 
-# sudo nano /etc/apache2/sites-available/wordpress.conf
+- sudo nano /etc/apache2/sites-available/wordpress.conf
 > Copy-Paste the following lines <VirtualHost *:80>
 > ServerAdmin admin@example.com
 > DocumentRoot /var/www/html/wordpress
